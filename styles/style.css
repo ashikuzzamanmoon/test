@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+}
+
+.header {
+    margin-top: -960px;
+}
+.nav-banner{
+    position: relative;
+    top: 920px;
+    padding-left: 70px;
+    padding-top: 100px;
+}
+.banner-bg-img{
+    width: 100%;
+    height: 800px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-images {
+    display: flex;
+    align-items: center;
+    gap: 7.79px;
+}
+
+.nav-icon {
+    width: 84.235px;
+    height: 84.681px;
+}
+
+.nav-icon-1 {
+    width: 145.051px;
+    height: 23.632px;
+}
+
+.nav-group-icon {
+    width: 149.925px;
+    height: 15.887px;
+    padding-right: 80px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    gap: 280px;
+    margin-bottom: 70px;
+}
+
+.banner-subtitle {
+    background-color: #012A4A;
+    color: #FFFFFF;
+    width: 387px;
+    height: 54px;
+    border-radius: 25px 0;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.banner-subtitle p {
+    color: #FFF;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.banner-title {
+    width: 650px;
+    margin-bottom: 25px;
+
+}
+
+.banner-title p {
+    color: #003B60;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+
+.total-price-text {
+    color: #012A4A;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.banner-price-text {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.middle-mark {
+    color: #608AAB;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.price-text {
+    color: #012A4A;
+    font-family: Li Ador Noirrit;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.btn-primary {
+    background-color: #F0E615;
+    border: none;
+    border-radius: 25px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+}
+
+.banner-btn {
+    margin: 50px 0;
+}
+
+.btn-primary p {
+    color: #092E67;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner-price-description {
+    color: #012A4A;
+    font-size: 20px;
+    padding-bottom: 70px;
+    width: 430px;
+}
+
+.blue-jeans-banner-img {
+    width: 500px;
+    height: 500px;
+}
+
+/* product details */
+
+.product-details {
+    width: 100%;
+}
+
+.product-description {
+    margin: 0 150px;
+    color: #003B60;
+    font-family: Li Ador Noirrit;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.product-description-point {
+    width: 600px;
+    position: relative;
+    left: 630px;
+}
+
+.description-title {
+    color: #003B60;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.description-point-columns {
+    display: flex;
+    gap: 50px;
+}
+
+.description-point {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.description-point p {
+    color: #003B60;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.denim-img {
+    margin-top: -1000px;
+}
+
+.denim-img img {
+    width: 100%;
+}
+
+.denim-img h3 {
+    color: #FFF;
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Li Sheikh Hasina 2;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 760px;
+}
+
+.denim-img-text h2 {
+    color: #F0E615;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 40px;
+}
+
+.jeans-size {
+    position: relative;
+    left: 620px;
+    top: 400px;
+}
+
+.frame-images {
+    display: flex;
+    gap: 25px;
+}
+
+.frame-img {
+    width: 99px;
+    height: 101px;
+}
+
+.waist-size {
+    color: #012A4A;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 44px;
+    position: relative;
+    bottom: 84px;
+    left: 13px;
+}
+
+.jeans-pile-img {
+    width: 400px;
+    height: 700px;
+    position: relative;
+    top: 700px;
+    left: 150px;
+}
+
+.denim-img-btn {
+    position: relative;
+    top: 780px;
+    margin: 0 auto;
+}
+
+/* product details end */
+/* jeans feature section start */
+.jeans-features-section{
+    width: 100%;
+}
+.jeans-features {
+    background-color: #F0F9FF;
+    padding-bottom: 160px;
+}
+
+.jeans-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.jeans-card {
+    width: 299px;
+    height: 340px;
+    background-color: #FFF;
+    border-radius: 30px 0;
+}
+
+.jeans-card-title {
+    background-color: #003B60;
+    border: none;
+    border-radius: 30px 0;
+    text-align: center;
+    gap: 8px;
+    padding: 15px 20px;
+    margin: 5px 10px 5px 10px;
+}
+
+.jeans-card img {
+    margin: 20px;
+    height: 200px;
+}
+
+.jeans-card p {
+    color: #FFF;
+    font-family: Li Ador Noirrit;
+    font-size: 18px;
+    height: 40px;
+}
+
+.dotted-line {
+    color: #003B60;
+    width: 900px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.jeans-features-title {
+    color: #003B60;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 38px;
+    margin: 40px 200px 20px 300px;
+}
+
+.jeans-features-columns {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.features-point {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.features-point p {
+    color: #003B60;
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+}
+
+.bunch-jeans-img {
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.bunch-jeans {
+    width: 90%;
+    border-radius: 100px 0;
+    margin-top: -120px;
+    left: 120px;
+
+}
+
+.btns-on-jeans-img {
+    margin-top: -30px;
+}
+
+.ellipse {
+    position: relative;
+    bottom: 400px;
+    left: 600px;
+}
+
+.play-btn {
+    position: relative;
+    bottom: 418px;
+    left: 487px;
+}
+
+.some-instructions {
+    text-align: center;
+    color: #003B60;
+}
+
+.some-instructions h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.some-instructions p {
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.instructions-points {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jeans-peice {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.jeans-peice h2 {
+    position: relative;
+    bottom: 350px;
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+}
+
+.jeans-peice h4 {
+    position: relative;
+    bottom: 335px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.jeans-peice-img {
+    align-items: center;
+    text-align: center;
+    width: 700px;
+}
+
+.btn-secondary-div {
+    display: inline-flex;
+    position: relative;
+    bottom: 300px;
+
+}
+
+.btn-secondary {
+    background-color: #F0E615;
+    border: none;
+    border-radius: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 40px;
+}
+
+.btn-secondary p {
+    color: #092E67;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-size: 25px;
+}
+.owner-section{
+    background-color: #F0F9FF;
+    margin-top: -450px;
+}
+.owner-cards{
+    padding-top: 400px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.owner-card{
+    width: 250px;
+    height: 220px;
+    background-color: #FFF;
+    border-radius: 45px 0;
+    text-align: center;
+    padding: 20px;
+}
+.owner-img{
+    position: relative;
+    bottom: 80px;
+}
+.owner-details{
+    margin-top: -60px;
+    color: #003B60;
+
+}
+.owner-name{
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+.owner-card2{
+    background-color: #003B60;
+    width: 250px;
+    height: 220px;
+    border-radius: 45px 0;
+    text-align: center;
+    padding: 20px;
+}
+.owner-details2{
+    margin-top: -60px;
+    color: #FFF;
+}
+.arrows{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 35px 0;
+}
+.arrow-left{
+    border: solid 1px #003B60;
+    border-radius: 100%;
+    padding: 7px;
+}
+.arrow-right{
+    background-color: #012A4A;
+    border: solid 1px #003B60;
+    border-radius: 100%;
+    padding: 7px;
+}
+/* jeans features section end */
+
+/* order section start */
+.order-section{
+     margin-top: -330px;
+}
+.order-headline{
+    position: relative;
+    top: 370px;
+    text-align: center;
+}
+.order-headline h2{
+    color: #FFF;
+font-size: 35px;
+}
+.billing-order-form{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.billing-address{
+    position: relative;
+    top: 400px;
+    color: #FFF;
+}
+.billing-name{
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    padding: 2px 170px 2px 4px;
+    margin-top: 10px;
+}
+.billing-mobile{
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    padding: 2px 170px 2px 4px;
+    margin-top: 15px;
+}
+.address{
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    padding: 2px 170px 2px 4px;
+    margin-top: 15px;
+}
+.payment-box{
+    margin-top: 15px
+}
+.bg-white{
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 20px 0 0 0;
+}
+.bg-white p{
+    color: black;
+}
+.bg-blue{
+    background-color: #003B60;
+    padding: 10px;
+    border-radius: 0 0 20px 0;
+}
+.order-bg-img{
+    width: 100%;
+}
+
+.order{
+    position: relative;
+    top: 400px;
+    color: #FFF;
+}
+
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    background-color: #003B60;
+    width: 80%;
+    border-radius: 40px 0;
+    position: relative;
+    bottom: 400px;
+    left: 60px;
+   
+}
+.links{
+    color: #FFF;
+}
+.links h4,p{
+    margin-bottom: 12px;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-icon img{
+    width: max-content;
+}
+.for-order{
+    color: #F0E615;
+    margin-bottom: 10px;
+}
+.phone-no{
+    color: #FFF;
+}
+.footer-jeans-div{
+    position: relative;
+    bottom: 5px;
+}
+.footer-jeans-img{
+    width: 100%;
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    bottom: 350px;
+}
+.footer-text{
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    bottom: 310px;
+    background: linear-gradient(0deg, #003B60 0%, rgba(0, 59, 96, 0.00) 100%);
+    padding-bottom: 10px;
+}
+.funnel{
+    color: #F0E615;
+    font-weight: bold;
+}
